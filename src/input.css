@@ -1,3 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components{
+    .bg-img{
+        background-image: url(../assests/scandinavian-interior-mockup-wall-decal-background_1961-259\ \(1\).jpg);
+        @apply bg-cover bg-center
+    }
+}
