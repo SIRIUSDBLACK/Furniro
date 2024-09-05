@@ -85,7 +85,7 @@
             <div class="bg-cardbg space-y-1 h-[25%] p-3">
               <h1 class="font-bold text-cardh text-xl">Syltherine</h1>
               <p class="text-cardtt font-medium">Stylish cafe chair</p>
-              <div class="flex gap-2">
+              <div class="flex lg:gap-2 md:gap-1">
                 <h1 class="font-bold text-lg text-cardh">Rp 2.500.000</h1>
                 <p class="line-through text-cardlt">Rp 3.500.000</p>
               </div>
@@ -114,7 +114,7 @@
             <div class="bg-cardbg space-y-1 h-[25%] p-3">
               <h1 class="font-bold text-cardh text-xl">Lolito</h1>
               <p class="text-cardtt font-medium">Luxury big sofa</p>
-              <div class="flex gap-2">
+              <div class="flex lg:gap-2 md:gap-1">
                 <h1 class="font-bold text-lg text-cardh">Rp 7.000.000</h1>
                 <p class="line-through text-cardlt">Rp 14.000.000</p>
               </div>
@@ -171,7 +171,7 @@
             <div class="bg-cardbg space-y-1 h-[25%] p-3">
               <h1 class="font-bold text-cardh text-xl">Pingky</h1>
               <p class="text-cardtt font-medium">Cute bed set</p>
-              <div class="flex gap-2">
+              <div class="flex lg:gap-2 md:gap-1">
                 <h1 class="font-bold text-lg text-cardh">Rp 7.000.000</h1>
                 <p class="line-through text-cardlt">Rp 14.000.000</p>
               </div>
@@ -204,11 +204,12 @@
 
     <!-- Footer-Section -->
 <hr class="border-neutral-500">
-    <section class="w-full mt-5 ">
+    <section class="w-full mt-5 lg:p-0 md:p-4">
 
-      <div class="flex w-full">
+      <div class="flex lg:flex-row  md:flex-col w-full">
 
         <div class=" flex justify-center pt-7 w-[40%] ">
+
           <div class="space-y-5">
             <img src="./assests/logo2.svg" alt="">
             <div>
@@ -218,33 +219,34 @@
             <p class="font-medium text-slate-500">FL 33414 USA</p>
           </div>
         </div>
+
         <div class="w-[60%] ">
 
-          <table class="border-spacing-6">
+          <table class="lg:border-spacing-6 md:border-spacing-3">
             <thead>
-              <tr class="text-slate-500 font-medium">
-                <td class="px-9 py-5">Links</td>
-                <td class="px-9 py-5">Help</td>
-                <td class="px-9 py-5">Newsletter</td>
+              <tr class="text-slate-500 font-medium  ">
+                <td class="px-9 md:table-cell hidden py-5">Links</td>
+                <td class="px-9 md:table-cell hidden py-5">Help</td>
+                <td class="px-9 md:table-cell hidden py-5">Newsletter</td>
               </tr>
             </thead>
             <tbody class="font-bold">
-              <tr>
-                <td class="px-9 py-5">Home</td>
-                <td class="px-9 py-5">Payment Options</td>
+              <tr class="">
+                <td class="px-9 py-5 md:table-cell hidden">Home</td>
+                <td class="px-9 py-5 md:table-cell hidden">Payment Options</td>
                 <td class="ps-9 py-5"><input class="border-b-2 p-1 border-black bg-bodybg" type="text" placeholder="Enter your Email Address"></td>
-                <td class="ps-1 py-5"><button class="p-1 border-b-2 border-black">SUBSCRIBE</button></td>
+                <td class="ps-1 py-5"><button class="p-1 border-b-2  hover:bg-black hover:text-white border-black">SUBSCRIBE</button></td>
               </tr>
-              <tr>
-                <td class="px-9 py-5">Shop</td>
+              <tr class="">
+                <td class=" md:table-cell hidden px-9 py-5" >Shop</td>
                 <td class="px-9 py-5">Returns</td>
               </tr>
-              <tr>
-                <td class="px-9 py-5">About</td>
-                <td class="px-9 py-5">Privacy Policies</td>
+              <tr class="">
+                <td class=" md:table-cell hidden px-9 py-5">About</td>
+                <td class="px-9 py-5 md:table-cell">Privacy Policies</td>
               </tr>
-              <tr>
-                <td class="px-9 py-5">Contact</td>
+              <tr  class="">
+                <td class=" md:table-cell hidden px-9 py-5">Contact</td>
               </tr>
             </tbody>
           </table>
