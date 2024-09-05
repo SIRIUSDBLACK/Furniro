@@ -11,8 +11,14 @@ module.exports = {
         cardtt: '#898989',
         cardlt: '#B0B0B0', 
         cardh: '#3A3A3A',
+        adbg: '#FCF8F3',
         bodybg: '#F5F5F5',    
       },
+      
+      fontFamily:{
+        poppins: ["Poppins", "sans-serif"],
+      },
+
     },
   },
   plugins: [],
