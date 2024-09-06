@@ -13,12 +13,10 @@ module.exports = {
         cardh: '#3A3A3A',
         adbg: '#FCF8F3',
         bodybg: '#F5F5F5',    
-      },
-      
+      },    
       fontFamily:{
         poppins: ["Poppins", "sans-serif"],
       },
-
     },
   },
   plugins: [],
