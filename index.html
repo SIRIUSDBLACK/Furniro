@@ -46,7 +46,7 @@
           <p class="text-black text-md font-medium">New Arrival</p>
           <h1 class="text-2xl sm:text-3xl font-bold text-secondary">Discover Our <br> New Collection</h1>
           <p class="text-black text-lg font-medium">Lorem ipsum dolor sit amet,  adipiscing elit. Ut elit tellus, luctus ullamcorper nec  mattis.</p>
-          <button class="btn w-full py-5 font-bold mt-5 border text-white bg-secondary rounded">Buy Now</button></div>
+          <button class="btn w-full py-5 font-bold mt-5 border hover:bg-third text-white bg-secondary rounded">Buy Now</button></div>
       </div>
       
       <!-- desktop hero content -->
@@ -56,7 +56,7 @@
           <h1 class="text-5xl font-bold text-secondary">Discover Our</h1>
           <h1 class="text-5xl font-bold text-secondary">New Collection</h1>
           <p class="text-black text-lg font-medium">Lorem ipsum dolor sit amet,  adipiscing elit. Ut elit tellus, luctus ullamcorper nec  mattis.</p>
-          <button class="btn px-16 py-5 font-bold mt-5 border text-white bg-secondary rounded">Buy Now</button></div>
+          <button class="btn px-16 py-5 font-bold mt-5 border hover:bg-third text-white bg-secondary rounded">Buy Now</button></div>
       </div>
     </section>
 
@@ -64,10 +64,10 @@
 
     <section class=" w-full pb-12 ">
       <div class="text-center mb-10">
-        <h1 class="text-3xl font-bold">Browse The Range </h1>
-        <p class="text-lg">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <h1 class="md:text-3xl text-2xl font-bold">Browse The Range </h1>
+        <p class="md:text-lg text-base">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
       </div>
-      <div class="flex items-center justify-center gap-5  w-full">
+      <div class="flex flex-col md:flex-row items-center justify-center gap-2 p-2 space-y-1 md:space-y-0 md:gap-5  w-full">
         <div class="card flex flex-col items-center">
           <img src="./assests/card1.png" alt="">
           <h3 class="text-xl mt-5 font-semibold">Dining</h3>
@@ -89,7 +89,7 @@
     <section class="w-full py-5 px-5 mb-4">
       <!-- Section Title -->
       <div class="text-center mb-3">
-        <h1 class="text-3xl font-bold">Our Products</h1>
+        <h1 class="text-2xl md:text-3xl font-bold">Our Products</h1>
       </div>
     
       <!-- Product Grid -->
@@ -222,7 +222,7 @@
  
     <section class="bg-adbg w-full">
 
-      <div class="flex  items-center ps-5 md:ps-10 justify-between relative py-5">
+      <div class="flex items-center ps-5 md:ps-10 justify-between relative py-5">
 
         <div class="w-[35%] space-y-1 md:space-y-3">
           <div><h1 class="md:text-4xl sm:text-lg font-bold">50+ Beautiful rooms</h1>
@@ -242,11 +242,16 @@
             </div>
           </div>
 
-          <div class="">
+          <div class="relative">
             <img src="./assests/Rectangle 25.png" alt="">
-           <button class="bg-white text-secondary  shadow-2xl px-3 py-1 hover:bg-third  hover:text-white  absolute top-[40%] right-[3.2%] rounded-full"><i class="fa-solid fa-chevron-right "></i></button>
+           <button class="bg-white text-secondary  shadow-2xl px-3 py-1 hover:bg-third  hover:text-white  absolute top-[40%] right-0 rounded-full"><i class="fa-solid fa-chevron-right "></i></button>
+            <div class="sm:space-x-2 space-x-0 mt-1">
+              <button><i class="fa-solid fa-circle-dot text-lg md:text-xl" style="color: #be8e2f;"></i></button>
+              <button><i class="fa-regular fa-circle-dot text-sm md:text-base " style="color: #b88e2f;"></i></button>
+              <button><i class="fa-regular fa-circle-dot text-sm md:text-base " style="color: #b88e2f;"></i></i></button>
+              <button><i class="fa-regular fa-circle-dot text-sm md:text-base " style="color: #b88e2f;"></i></i></button>
+            </div>
            </div>
-
           <div>
             <img src="./assests/Rectangle 26.png" alt="">
           </div>
@@ -261,11 +266,11 @@
    <hr class="border-neutral-500">
    <section class="w-full mt-5 p-1 md:p-4">
 
-     <div class="flex flex-col lg:flex-row w-full">
+     <div class="flex flex-col items-center sm:flex-row lg:flex-row w-full">
 
-       <div class=" flex justify-center pt-7 ps-2 sm:ps-0 w-[40%]">
+       <div class=" flex justify-center pt-4 lg:pt-7 ps-2 sm:ps-0 w-[40%]">
 
-         <div class="space-y-5">
+         <div class="space-y-3 lg:space-y-5">
            <img src="./assests/logo2.svg" alt="">
            <div>
            <p class="font-medium text-slate-500">400 University Drive Suite 200 Coral</p>
@@ -306,9 +311,9 @@
            </tbody>
          </table>
          
-         <div class="text-center w-screen lg:hidden">
+         <div class="w-full mt-2 mb-2 text-center  lg:hidden">
             <input class="border-b-2 p-1 border-black bg-bodybg" type="text" placeholder="Enter your Email Address">
-            <button class="p-1 border-b-2  hover:bg-black hover:text-white border-black">SUBSCRIBE</button>
+            <button class="p-1 sm:border-b-2  border-2 mt-2 hover:bg-black hover:text-white  border-black">SUBSCRIBE</button>
          </div>
        </div>
      </div>
